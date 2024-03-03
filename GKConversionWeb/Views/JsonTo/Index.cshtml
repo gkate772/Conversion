@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Convert Json to C# Classes Online";
+    ViewData["Heading"] = "Convert Json to C# Classes Online";
+    ViewData["path"] = Context.Request.Path;
+    ViewData["localjs"] = Context.Request.Path + "/index.js";
+}
+
+<div class="card mb-4">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <textarea id="editor1" rows="10" cols="30" style="width:100%; height:450px" aria-label="editor"></textarea>
+            </div>
+            <div class="col-md-6">
+                <textarea id="editor2" rows="10" cols="30" style="width:100%; height:450px" aria-label="editor"></textarea>
+            </div>
+            <div class="col-md-12 pt-3">
+                <button id="myButton">Convert</button>
+            </div>
+        </div>
+        
+    </div>
+</div>
